@@ -1,0 +1,17 @@
+
+<p><i><b>Mobiles Table</b></i></p>
+<table>
+    <th>ID</th>
+    <th>Brand</th>
+    <th>Price</th>
+    <th>BatteryCapacity</th>
+    <th>ScreenSize</th>
+
+    <tr *ngFor="let a of mobiles;let i=index">
+       <td>{{i+1}}</td>
+       <td>{{a.brand}}</td>
+       <td>{{a.price}}</td>
+       <td>{{a.batteryCapacity}}</td>
+       <td>{{a.screenSize}}</td>
+       </tr>
+</table>

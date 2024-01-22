@@ -1,0 +1,21 @@
+th, td {
+    border-color:gray;
+    font-style:italic;
+    border-style:outset;
+  }
+  th {
+    color: red;
+  }
+  td{
+    color: black;
+  }
+  td {
+    text-align: center;
+  }
+  table {
+    width: 70%;
+  }
+  
+  th {
+    height: 50px;
+  }
